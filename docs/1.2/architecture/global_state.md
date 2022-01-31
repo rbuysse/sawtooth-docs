@@ -1,6 +1,4 @@
----
-title: Global State
----
+# Global State
 
 One goal of a distributed ledger like Sawtooth, indeed the *defining*
 goal, is to distribute a ledger among participating nodes. The ability
@@ -39,13 +37,11 @@ different hash, the block is not considered valid. For more information
 about general concepts, see the
 [Merkle](https://en.wikipedia.org/wiki/Merkle_tree) page on Wikipedia.
 
-![Merkle hash diagram](../images/state_merkle_hashes.*){.align-center
-width="80.0%"}
+![Merkle hash diagram](../images/state_merkle_hashes.svg)
 
 ## Radix Addresses
 
-![Tree address format](../images/state_address_format.*){.align-center
-width="80.0%"}
+![Tree address format](../images/state_address_format.svg)
 
 The tree is an addressable Radix tree because addresses uniquely
 identify the paths to leaf nodes in the tree where information is
@@ -62,8 +58,7 @@ domain-specific unique identifiers into portions of the address. For
 more information about general concepts, see the
 [Radix](https://en.wikipedia.org/wiki/Radix_tree) page on Wikipedia.
 
-![Radix addressing diagram](../images/state_radix.*){.align-center
-width="80.0%"}
+![Radix addressing diagram](../images/state_radix.svg)
 
 # Serialization Concerns
 
